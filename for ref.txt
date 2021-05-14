@@ -1,0 +1,1 @@
+layout.css contains the part of code to change the skill level bars in the skills section
