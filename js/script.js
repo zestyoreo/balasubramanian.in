@@ -55,6 +55,7 @@ var App = {
     this.echo(bluetext("|  ") + commandText("contact") + bluetext("            - Connect with me"));
     this.echo(bluetext("|  ") + commandText("credits") + bluetext("            - How I made this website"));
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   command:function(){
     this.exec('commands');
@@ -79,6 +80,7 @@ var App = {
     this.echo(" "+commandText("reload")+","+commandText("mail")+","+commandText("iitbmail")+","+commandText("fullscreen ")+"or "+commandText("fs")+","+commandText("help ")+"or "+commandText("menu")+",");
     this.echo(" "+commandText("rm")+","+commandText("cd")+","+commandText("pwd")+","+commandText("cp")+","+commandText("du")+","+commandText("find ")+"or "+commandText("grep")+","+commandText("cls ")+"or "+commandText("clear")+","+commandText("mv")+","+commandText("sudo")+",");
     this.echo(" "+commandText("github")+","+commandText("git")+","+commandText("linkedin")+","+commandText("insta")+","+commandText("twitter")+","+commandText("fb")+","+commandText("medium ")+"or "+commandText("blog")+","+commandText("gmail "));
+    window.scrollTo(0, document.body.scrollHeight);
   },
   info: function(command){
     this.exec('contact');
@@ -101,6 +103,7 @@ var App = {
     this.echo();
     this.echo("|  "+commandText("Welcome to my personal website!"));  
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   contact: function(){
     this.echo();
@@ -111,17 +114,20 @@ var App = {
     this.echo("\t8939623615");
     this.echo("\tzestyoreo9@gmail.com")
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   rm: function(command){
     this.echo();
     this.echo("|  Don't mess with the code bruh!");  
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   cd: function(command){
     if(command){
       this.exec(command);  
     }else{
       this.echo("|  directory is not selected.");
+      window.scrollTo(0, document.body.scrollHeight);
     }
   },
   find: function(command){
@@ -129,6 +135,7 @@ var App = {
       this.exec(command);  
     }else{
       this.echo("|  Please enter what you are looking for.");
+      window.scrollTo(0, document.body.scrollHeight);
     }
   },
   grep: function(command){
@@ -136,6 +143,7 @@ var App = {
       this.exec(command);  
     }else{
       this.echo("|  Please enter what you are looking for.");
+      window.scrollTo(0, document.body.scrollHeight);
     }
   },
   help: function(){
@@ -153,6 +161,7 @@ var App = {
     this.echo(bluetext("|  ") + commandText("contact") + bluetext("            - Connect with me"));
     this.echo(bluetext("|  ") + commandText("credits") + bluetext("            - How I made this website"));
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   menu: function(){
     this.echo();
@@ -171,6 +180,7 @@ var App = {
     this.echo()
     this.echo(bluetext("|  ") + commandText("all") + bluetext("                -") +" Run all commands (recommended)");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   social: function(){
     this.echo();
@@ -181,6 +191,7 @@ var App = {
     this.echo("|  " + commandText("Instagram") + ":    https://www.instagram.com/zesty_oreo/?hl=en");
     this.echo("|  " + commandText("Facebook") + ":     https://www.facebook.com/people/Balasubramanian-Poovanan/100015812881087/");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   reload: function(){
     window.location.reload();
@@ -189,42 +200,50 @@ var App = {
     this.echo();
     this.echo("|  https://github.com/zestyoreo");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   github: function(){
     this.echo();
     this.echo("|  https://github.com/zestyoreo");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
 
   linkedin: function(){
     this.echo();
     this.echo("|  https://www.linkedin.com/in/balasubramanian-p-991059148/");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   twitter: function(){
     this.echo();
     this.echo("|  https://twitter.com/zestyoreo");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   insta: function(){
     this.echo();
     this.echo("|  https://www.instagram.com/zesty_oreo/?hl=en");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   instagram: function(){
     this.echo();
     this.echo("|  https://www.instagram.com/zesty_oreo/?hl=en");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   fb: function(){
     this.echo();
     this.echo("|  https://www.facebook.com/people/Balasubramanian-Poovanan/100015812881087/");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   facebook: function(){
     this.echo();
     this.echo("|  https://www.facebook.com/people/Balasubramanian-Poovanan/100015812881087/");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
 
   mail: function(){
@@ -233,27 +252,32 @@ var App = {
     this.echo(bluetext("|  ")+"  mailto:zestyoreo9@gmail.com ");
     this.echo(bluetext("|  ")+"  mailto:200050103@iitb.ac.in");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   iitbmail: function(){
     this.echo();
     this.echo(bluetext("|  ")+"  mailto:balan@cse.iitb.ac.in");
     this.echo(bluetext("|  ")+"  mailto:200050103@iitb.ac.in");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   gmail: function(){
     this.echo();
     this.echo(bluetext("|  ")+"  mailto:zestyoreo9@gmail.com ");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   medium: function(){
     this.echo();
     this.echo(bluetext("|  ")+"  https://medium.com/@zestyoreo9");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   blog: function(){
     this.echo();
     this.echo(bluetext("|  ")+"  https://medium.com/@zestyoreo9");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   exp: function(){
     this.exec('work');
@@ -275,6 +299,7 @@ var App = {
     this.echo("|    • "+whitetext("12th Grade")+"                 : "+bluetext("PSBBSSS K.K.Nagar")+"                                (Chennai; June 2005-September 2020)");
     this.echo("|\t\t\t\t\t\t\t\t\t*Proud ex-PSBBian, Batch of 2020 \n|\t\t\t\t\t\t\t\t\t*Studied KG-Grade 12 at Padma Seshadri Bala Bhavan Senior Secondary School. \n|\t\t\t\t\t\t\t\t\t*Topper in Grade 12 with a score of 491/500 (98.2%) \n|\t\t\t\t\t\t\t\t\t*Topper in Grade 10 with a score of 494/500 (98.8%).");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   whoami: function(){
     this.exec('about');
@@ -288,6 +313,7 @@ var App = {
     this.echo("|                I am also ardent reader and rabbit aficionado. I am always on the lookout for opportunities"); 
     this.echo("|                to meet and collaborate with amazing people on awesome projects.");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   skill: function(){
     this.exec('skills');
@@ -342,6 +368,7 @@ var App = {
     this.echo("|  " + commandText('English') + "                ##[[g;#5BD100;]##################################################]  ##");
     this.echo("|  " + commandText('Hindi') + "                  ##[[g;#B2D100;]#######################################]             ##");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   credit: function(){
     this.exec('credits');
@@ -352,6 +379,7 @@ var App = {
     this.echo("|  Using " + bluetext('Jquery Terminal Emulator') + " by " + bluetext('Jakub Jankiewicz') + ": http://terminal.jcubic.pl");
     this.echo("|  Thanks to " + bluetext('Examples Page') + " for providing this template : http://terminal.jcubic.pl/examples.php");        
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   project: function(){
     this.exec('projects');
@@ -382,6 +410,7 @@ var App = {
   },
   echo: function(command){
     this.echo(command);
+    window.scrollTo(0, document.body.scrollHeight);
   },
   all: function(){
     this.echo();
@@ -401,26 +430,31 @@ var App = {
     this.echo();
     this.echo("|  69%");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   mv: function(command){
     this.echo();
     this.echo("|  Don't do this!");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   pwd: function(){
     this.echo();
     this.echo("|  Home");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   cp: function(){
     this.echo();
     this.echo("|  Don't copy!");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   mkdir: function(){
     this.echo();
     this.echo("|  To Do what?");
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   },
   sudo: function(command){
 
@@ -429,6 +463,7 @@ var App = {
     setTimeout(() => { console.log("sudo"); }, 2000);
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
     this.echo();
+    window.scrollTo(0, document.body.scrollHeight);
   }
 }
 
