@@ -360,10 +360,10 @@ var App = {
     window.location.href = "https://github.com/zestyoreo";
   },
   course: function(){
-    window.location.href = "https://github.com/zestyoreo/balasubramanian.in/tree/main/courses";
+    window.location.href = "https://github.com/zestyoreo/iitb_courses";
   }, 
   courses: function(){
-    window.location.href = "https://github.com/zestyoreo/balasubramanian.in/tree/main/courses";
+    window.location.href = "https://github.com/zestyoreo/iitb_courses";
   },   
   resumé: function(){
     window.location.href = "./Balasubramanian_Resume.pdf";
